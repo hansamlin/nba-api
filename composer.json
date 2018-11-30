@@ -1,0 +1,18 @@
+{
+  "autoload": {
+    "classmap": [
+      "PtsQtr",
+      "libraries"
+    ],
+    "files": [
+      "Config.php",
+      "SimpleRest.php",
+      "SiteNbaHandler.php",
+      "utility.php"
+    ]
+  },
+  "require": {
+    "ext-json": "*",
+    "ext-curl": "*"
+  }
+}

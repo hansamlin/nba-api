@@ -1,0 +1,16 @@
+.scorebox_table {
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.scorebox_table td {
+    width: 1%;
+}
+
+.scorebox_table img {
+    width: 30%;
+}
+
+.scorebox_table {
+    font-size: 2em;
+}
