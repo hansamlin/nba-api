@@ -41,10 +41,11 @@ curl_close($ch);
 
 $response = json_decode($api_response);
 
-$mysql_address  = "localhost";
-$mysql_username = "root";
-$mysql_password = "sam.123";
-$mysql_database = "nba";
+$config         = new Config();
+$mysql_address  = $config->mysql_address;
+$mysql_username = $config->mysql_username;
+$mysql_password = $config->mysql_password;
+$mysql_database = $config->mysql_database;
 
 $db = new DatabaseAccessObject($mysql_address, $mysql_username, $mysql_password, $mysql_database);
 
