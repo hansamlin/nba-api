@@ -35,7 +35,8 @@ foreach ($Teams as $team)
 	if ($team["AREA"] == 'east')
 	{
 		$east[] = $team;
-	} else
+	}
+	else
 	{
 		$west[] = $team;
 	}
@@ -71,8 +72,6 @@ foreach ($Teams as $team)
         padding: 3em;
         font-size: .9375rem;
     }
-
-
 
     .category-header h1 {
         text-align: center;
@@ -125,77 +124,4 @@ foreach ($Teams as $team)
 
 
     </div>
-
-
-<!--    <div class="category">-->
-<!---->
-<!--        <div class="category-body">-->
-<!--            <div class="category-header">-->
-<!--                <h1>東區</h1>-->
-<!--            </div>-->
-<!---->
-<!--            <table class="category-table">-->
-<!---->
-<!--                <tbody>-->
-<!--                <tr>-->
-<!--					--><?php
-//					foreach ($east as $num => $team)
-//					{
-//						if ($num % 2 == 0 and $num > 0)
-//						{
-//							echo "</tr>";
-//							echo "<tr>";
-//						}
-//						?>
-<!---->
-<!--                        <td class="category-table__text">-->
-<!--                            <a class="stats-team-list__link" href="TeamName/--><?php //echo $team['Team_Name_En']; ?><!--/">-->
-<!--                                <img src="https://stats.nba.com/media/img/teams/logos/--><?php //echo $team['Team_Name_En'] ?><!--_logo.svg" alt="--><?php //echo $team["Team_Name_En"] ?><!-- logo" title="--><?php //echo $team["Team_Name_En"]; ?><!-- logo">-->
-<!--                        </td>-->
-<!---->
-<!--					--><?php //} ?>
-<!--                </tr>-->
-<!---->
-<!--                </tbody>-->
-<!--            </table>-->
-<!--        </div>-->
-<!---->
-<!---->
-<!--    </div>-->
-<!---->
-<!--    <div class="category">-->
-<!--        <div class="category-body">-->
-<!--            <div class="category-header">-->
-<!--                <h1>西區</h1>-->
-<!--            </div>-->
-<!--            <table class="category-table">-->
-<!---->
-<!--                <tbody>-->
-<!--                <tr>-->
-<!---->
-<!--					--><?php
-//					foreach ($west as $num => $team)
-//					{
-//						if ($num % 2 == 0)
-//						{
-//							echo "</tr>";
-//							echo "<tr>";
-//						}
-//						?>
-<!---->
-<!---->
-<!--                        <td class="category-table__text">-->
-<!--                            <a class="stats-team-list__link" href="TeamName/--><?php //echo $team['Team_Name_En']; ?><!--/">-->
-<!--                                <img src="https://stats.nba.com/media/img/teams/logos/--><?php //echo $team['Team_Name_En'] ?><!--_logo.svg" alt="--><?php //echo $team["Team_Name_En"] ?><!-- logo" title="--><?php //echo $team["Team_Name_En"]; ?><!--  logo">-->
-<!--                        </td>-->
-<!---->
-<!--					--><?php //} ?>
-<!---->
-<!--                </tr>-->
-<!---->
-<!--                </tbody>-->
-<!--            </table>-->
-<!--        </div>-->
-<!--    </div>-->
-
 </div>
